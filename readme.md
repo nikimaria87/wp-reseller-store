@@ -1,28 +1,26 @@
-# GoDaddy Reseller Store #
+# Reseller Store #
 ![Banner Image](.dev/wp-org-assets/banner-1544x500.png)
 
 **Contributors:** [godaddy](https://profiles.wordpress.org/godaddy), [fjarrett](https://profiles.wordpress.org/fjarrett), [bfocht](https://profiles.wordpress.org/bfocht), [eherman24](https://profiles.wordpress.org/eherman24)  
-**Tags:**              [godaddy](https://wordpress.org/plugins/tags/godaddy/), [reseller](https://wordpress.org/plugins/tags/reseller/), [program](https://wordpress.org/plugins/tags/program/), [[store](https://wordpress.org/plugins/tags/store/)front](https://wordpress.org/plugins/tags/storefront/), store, [products](https://wordpress.org/plugins/tags/products/), [responsive](https://wordpress.org/plugins/tags/responsive/), [shortcode](https://wordpress.org/plugins/tags/shortcode/), [ecommerce](https://wordpress.org/plugins/tags/ecommerce/)  
+**Tags:**              [reseller](https://wordpress.org/plugins/tags/reseller/), [program](https://wordpress.org/plugins/tags/program/), [storefront](https://wordpress.org/plugins/tags/storefront/), [products](https://wordpress.org/plugins/tags/products/), [posts](https://wordpress.org/plugins/tags/posts/), [shortcode](https://wordpress.org/plugins/tags/shortcode/), [ecommerce](https://wordpress.org/plugins/tags/ecommerce/), [blocks](https://wordpress.org/plugins/tags/blocks/)  
 **Requires at least:** 4.6  
-**Tested up to:**      5.0  
+**Tested up to:**      5.2  
 **Requires PHP:**      5.4  
-**Stable tag:**        2.0.8  
+**Stable tag:**        2.1.2  
 **License:**           GPL-2.0  
 **License URI:**       https://www.gnu.org/licenses/gpl-2.0.html  
 
-Design your own storefront for your GoDaddy Reseller plan and have more control over your customers experience and business!
+Design your own storefront for your Basic and Pro Reseller plan and have more control over your customers experience and business!
 
 [![Build Status](https://travis-ci.org/godaddy/wp-reseller-store.svg?branch=master)](https://travis-ci.org/godaddy/wp-reseller-store) [![Coverage Status](https://coveralls.io/repos/github/godaddy/wp-reseller-store/badge.svg?branch=master)](https://coveralls.io/github/godaddy/wp-reseller-store?branch=master) [![devDependencies Status](https://david-dm.org/godaddy/wp-reseller-store/master/dev-status.svg)](https://david-dm.org/godaddy/wp-reseller-store/master?type=dev) [![License](https://img.shields.io/badge/license-GPL--2.0-brightgreen.svg)](https://github.com/godaddy/wp-reseller-store/blob/master/license.txt) [![PHP >= 5.4](https://img.shields.io/badge/php-%3E=%205.4-8892bf.svg)](https://secure.php.net/supported-versions.php) [![WordPress >= 4.6](https://img.shields.io/badge/wordpress-%3E=%204.6-blue.svg)](https://wordpress.org/download/release-archive/)  
 
 ## Description ##
 
-**Note: This plugin requires PHP 5.4 or higher**
-
 With this plugin, you have the option to easily design a site with the imported product catalog, complete with your pricing, preferred currency and language. You can update your site, themes, product description, and images, easily and painlessly as well as use key features like domain search, domain transfer, and cart widgets!
 
 The product catalog includes cPanel and Plesk hosting, Wordpress, Website Builder, Workspace Email, Security, and Web Marketing applications.
 
-[![Play video on YouTube](https://img.youtube.com/vi/fTPzRP-_suM/maxresdefault.jpg)](https://www.youtube.com/watch?v=fTPzRP-_suM)
+[![Play video on YouTube](https://img.youtube.com/vi/eadC9vGwPxE/maxresdefault.jpg)](https://www.youtube.com/watch?v=eadC9vGwPxE)
 
 **Features**
 
@@ -41,9 +39,9 @@ English - Dansk - Deutsch - Ελληνικά - Español - Español de M
 
 If you run into a problem send an email to resellersupport@godaddy.com and we would be happy to help. Remember, the more information you can provide up-front, the easier it is for us to verify the problem and the faster we can help!
 
-* Screenshot(s) - How-to guide
-* Name and version of your theme - Video tutorial
-* List of all active plugins on your site - Video tutorial
+* Screenshot(s) of issues or errors
+* Name and version of your theme
+* List of all active plugins on your site
 * Steps taken or details we should know to reproduce and verify the problem
 
 You can call our support team at (480) 505-8857
@@ -52,6 +50,8 @@ You can call our support team at (480) 505-8857
 
 Development of this plugin is done on [GitHub](https://github.com/godaddy/wp-reseller-store). Pull requests on existing issues are welcome!
 
+**Note: This plugin requires PHP 5.4 or higher**
+
 ## Frequently Asked Questions ##
 
 ### What reseller programs will this plugin work with? ###
@@ -59,16 +59,16 @@ This plugin is designed for the [GoDaddy Reseller Program](https://www.godaddy.c
 
 ### What settings should I update in the Reseller Control Center? ###
 We recommend you set the _Home Url_ to your WordPress storefront. We also suggest you set up a _Custom Domain_ and point the DNS to our server.
-The _Custom Domain_ must be on a subdomain that matches the same root domain of your WordPress storefront. For example, your WordPress storefront is hosted on _www_ and your custom domain is hosted on _shop_. Follow these instructions to set your custom domain. https://www.godaddy.com/help/use-a-custom-domain-for-my-storefront-5040
+The _Custom Domain_ must be on a subdomain that matches the same root domain of your WordPress storefront. For example, your WordPress storefront is hosted on _www_ and your custom domain is hosted on _shop_. Follow these [instructions to set your custom domain](https://www.godaddy.com/help/use-a-custom-domain-for-my-storefront-5040).
 
-You can update both the home url and custom domain setting at https://reseller.godaddy.com/settings/branding
+You can update both the home url and custom domain setting at [https://reseller.godaddy.com/settings/branding](https://reseller.godaddy.com/settings/branding)
 
 ### How do I set the currency and language for the product catalog? ###
 The currency and language are set in the [Reseller Control Center](https://http://reseller.godaddy.com)
 
 ### Do you have a pre-built WordPress site? ###
 We encourage each reseller to create their own unique site and content for their storefronts. This provides a better experience for your customers and more opportunities for search engine optimization.
-While we can't test every theme with our plugin, we try our best to make the plugin compatible. GoDaddy provides several free themes including [Primer](https://wordpress.org/themes/primer/) and [Activation](https://wordpress.org/themes/activation/) that we test with our plugin. You can use content from the turnkey website to help you build your own WordPress site.
+While we can't test every theme with our plugin, we try our best to make the plugin compatible. GoDaddy provides several free themes including [Primer](https://wordpress.org/themes/primer/) and [Turnkey Storefront](https://wordpress.org/themes/turnkey-storefront/) that we test with our plugin. You can use content from the turnkey website to help you build your own WordPress site.
 
 ### I am getting an error while trying to activate the plugin. What should I do? ###
 If you are having an issue, we recommend you deactivate your other plugins and then try to activate the Reseller Store plugin. You can also try changing to another theme and the try re activating the plugin. Before making any of these changes, we recommend you make a backup of your site and database.
@@ -77,74 +77,104 @@ While we strive to make the plugin compatible with many themes and plugins, our 
 
 ### What shortcodes are supported? ###
 While we recommend you use our widgets for your storefront, we do have a shortcodes for each widget.
-  Domain Registration
+  *Domain Registration*
     [rstore_domain]
 
-  Domain Transfer
+  *Domain Transfer*
     [rstore_domain_transfer]
 
-  Domain Search (Advanced)
+  *Domain Search (React Widget)*
     [rstore_domain_search page_size="5" ]
 
-  View Cart Button
+  *View Cart Button*
     [rstore_cart_button ]
 
-  Product Post Pod
+  *Product Post Pod*
     [rstore_product post_id=10 show_title=1 show_content=1 show_price=1 redirect=1 button_label="Add to cart" text_cart="Continue to cart" image_size="original" ]
 
-  Log in/out Button
+  *Log in/out Button*
     [rstore_login welcome_message="Welcome Back" login_button_text="Log In" logout_button_text="Log Out" ]
 
+  *Product SVG Icon*
+    [rstore_icon icon="domains | domain-registration | domain-transfer | websites | wordpress | hosting-cpanel | hosting-windows | hosting | dedicated-server | dedicated-ip | email | email-marketing | online-calendar | online-storage | online-store | seo | website-backup | website-security | ssl | code-signing-certificate | reseller | sale" ]
 
 ### How do I make the domain search return results on page load? ###
 You can add `?domainToCheck=example.com` to your query string on any page that has the domain search widget and the widget will perform an automatic search on page load.
 
 ## Changelog ##
-### 2.0.8 - December 2018
+### 2.1.2 - February 2019 ###
 
-* Fix: Domain search by adding form as an allowed tag.
-###
-### 2.0.7 - December 2018
+* Fix: Domain search theme compatibility fixes
+* Fix: Remove Add to cart button from Domain Registration products
+* Fix: Compatibility with older versions of Turnkey Storefront theme
+
+### 2.1.1 - February 2019 ###
+
+* Update: Domain search widget package
+
+### 2.1.0 - February 2019 ###
+
+* Update: Add code signing certificate icon.
+* Fix: Use a form post to cart instead of AJAX call to fix third party cookie issues with Safari browser.
+* Fix: Domain widget 4.0 which uses form post to fix third party cookie issues
+* Fix: WordPress 5.1 compatibility fixes
+
+### 2.0.10 - January 2019 ###
+
+* Fixed: Add classic layout option to the product widgets
+* New: Filter default options on widgets and shortcodes
+* New: Filter cart options with `rstore_cart_options`
+* Update: Remove unused echo statements
+
+### 2.0.9 - January 2019 ###
+
+* Update: Update Product icon SVGs
+
+### 2.0.8 - December 2018 ###
+
+* Fix: Domain search by adding form as an allowed tag
+
+### 2.0.7 - December 2018 ###
 
 * Update: Add rstore_icon_html filter
 * Update: CSS in Gutenberg block editor for product icons
-###
-### 2.0.6 - November 2018
+
+### 2.0.6 - November 2018 ###
 
 * Fix: Restore thumbnail image import
-###
-### 2.0.5 - November 2018
+
+### 2.0.5 - November 2018 ###
 
 * Update: Use SVG images for thumbnails
-###
-### 2.0.4 - November 2018
+
+### 2.0.4 - November 2018 ###
 
 * New: Add SVG icons to all products
 * New: rstore_icon shortcode
-###
-### 2.0.1 - November 2018
+
+### 2.0.1 - November 2018 ###
 
 * Update: Apply WordPress ruleset fixes
 * Update: Update svg icons for blocks
-###
-### 2.0.0 - November 2018
+
+### 2.0.0 - November 2018 ###
 
 * New: Gutenberg update
 * Add: Product and domain search blocks
-###
-### 1.7.1 - October 2018
+
+### 1.7.1 - October 2018 ###
 
 * Update: Set height of product widget to 250px
 * Update: Add button to activate with secureserver.net
-###
-### 1.7.0 - September 2018
+
+### 1.7.0 - September 2018 ###
 
 * Update: Products default to redirect to cart
 * Update: Use `nextStepUrl` from API after adding product to cart
 * Update: Move `rstore_append_add_to_cart_form` as a filter for `the_content` and `the_excerpt`
 * Update: Bumped Domain Search to version 3.1.1
 * Update: Domain search prevents user navigation away from the page when domains are selected
-###
+
 ### 1.6.1 - May 2018 ###
 
 * Publish to WordPress.org

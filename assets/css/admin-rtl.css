@@ -4,14 +4,20 @@ body.post-type-reseller_product .rstore-product-icons .svg-fill-primary-o {
 body.post-type-reseller_product .rstore-product-icons .svg-fill-black {
   fill: #000000; }
 
-body.post-type-reseller_product .rstore-product-icons .svg-fill-grey {
-  fill: #111111; }
+body.post-type-reseller_product .rstore-product-icons .svg-fill-gray-light {
+  fill: #AEA99C; }
 
 body.post-type-reseller_product .rstore-product-icons .svg-fill-white {
   fill: #FFFFFF; }
 
 body.post-type-reseller_product .rstore-product-icons .svg-fill-wordpress {
-  fill: #00749a; }
+  fill: #00749A; }
+
+body.post-type-reseller_product .rstore-product-icons .svg-fill-cpanel {
+  fill: #F26C31; }
+
+body.post-type-reseller_product .rstore-product-icons .svg-fill-windows {
+  fill: #F22307; }
 
 body.post-type-reseller_product .rstore-blank {
   margin-top: 50px;
